@@ -89,7 +89,7 @@ Ask Valluvar may produce inaccurate information about people, places, or facts
 
 
 st.markdown("<center><h1>Ask Valluvar</h1></center>", unsafe_allow_html=True)
-st.success('`Tip: Toggle listening 🎧 capability from 👈🏻 side bar, if you like to hear 👂 from Valluvar 😎`', icon="💡")
+st.success('`Toggle listening 🎧 capability from 👈🏻 side bar, if you like to hear 👂 from Valluvar 😎`', icon="💡")
 
 st.markdown("""
 <style>
