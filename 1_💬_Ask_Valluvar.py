@@ -146,7 +146,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.chat_message(name='assistant', avatar='./resources/vv.png'):
-    st.markdown('<p class="glow"> What is on your mind, bro?</p>',unsafe_allow_html=True)
+    st.markdown('<p class="glow"> Speak you mind 🧠, Dear Friend 🤗!</p>',unsafe_allow_html=True)
 
 for message in st.session_state.messages:
     with st.chat_message(name=message["role"], avatar=getAvatar(message["role"])):
