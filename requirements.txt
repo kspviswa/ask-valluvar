@@ -1,0 +1,2 @@
+clarifai==9.8.0
+clarifai-grpc==9.8.0
