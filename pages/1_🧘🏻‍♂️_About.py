@@ -7,6 +7,8 @@ st.set_page_config(
 
 with st.sidebar:
     st.image('./resources/vv.png', use_column_width='always')
+    st.info('This app is built as my participation to[Streamlit LLM Hackathon](https://streamlit.io/community/llm-hackathon-2023?referral=banner-hp)')
+    st.info('Valluvar AI is powered using GPT-4 LLM and Speech Synthesis models offered by [Clarifai](https://www.clarifai.com/) as part of this hackathon')
 
 welcome_text = '''
 <div class="doOrange">
@@ -91,8 +93,9 @@ st.markdown("""
 st.markdown(welcome_text, unsafe_allow_html=True)
 
 sw = '''
-Ask Valluvar is powered by a large language model, along with some finetuning.
-Ask Valluvar may produce inaccurate information about people, places, or facts
+Please note: \n\n
+**Ask Valluvar** is powered by a large language model, along with some finetuning. \n
+**Ask Valluvar** may produce inaccurate information about people, places or facts
 '''
-st.warning(body=f'`{sw}`', icon="⚠️")
-st.warning(body='Please refrain from providing any sensitive information', icon="🚨")
+st.warning(body=sw, icon="⚠️")
+st.error(body='Important Note: \n\n Please refrain from providing any sensitive information', icon="🚨")
