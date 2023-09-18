@@ -42,7 +42,7 @@ def decideGlow(raw, role):
 
 def doGreen(raw):
     s = f"""
-      <p class="doGreen"> {raw}</p>
+      <div class="doGreen"> {raw}</div>
     """
     return s
 
