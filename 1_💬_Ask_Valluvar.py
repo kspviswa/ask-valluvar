@@ -235,4 +235,6 @@ else:
           '''
           st.warning(body=sw, icon="⚠️")
           st.error(body='Important Note: \n\n Please refrain from providing any sensitive information', icon="🚨")
+          st.info('Thiruvalluvar appreciate your **Patience** 🧘🏻 \n as sometimes it takes more time to generate the results...',
+                  icon="⏳")
           st.button('I have reviewed the above statements & ready to proceed', type='primary', use_container_width=True, on_click=updateEula)
